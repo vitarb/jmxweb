@@ -8,5 +8,12 @@
     <artifactId>jmxweb</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    
+
+    <modules>
+        <module>jmxweb-client</module>
+        <module>jmxweb-client-jolokia</module>
+        <module>jmxweb-server</module>
+        <module>jmxweb-ui</module>
+    </modules>
+
 </project>
